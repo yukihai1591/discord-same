@@ -9,7 +9,7 @@ lerna-debug.log*
 
 # dependencies
 /node_modules
-/src/styles/tailwind.css
+# /src/styles/tailwind.css
 
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
