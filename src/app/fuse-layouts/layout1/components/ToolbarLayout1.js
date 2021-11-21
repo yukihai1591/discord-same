@@ -54,8 +54,12 @@ function ToolbarLayout1(props) {
 
 	// let route = props.location.pathname.split("/")[1];
 	let routeSplit1 = props.location.pathname;
-	let routeSplit2 = routeSplit1.split("/");
-	let route = routeSplit2[1];
+	let route;
+	if (routeSplit1) {
+		let routeSplit2 = routeSplit1.split("/");
+		route = routeSplit2[1];
+	}
+
 	/** PRACTICE */
 	const [isSubMenu, setSubMenu] = useState(false);
 	const [isSubMenuTest, setSubMenuTest] = useState(false);
@@ -214,7 +218,7 @@ function ToolbarLayout1(props) {
 															<Typography style={{ color: route === item.id ? 'black' : '#5f6368', fontWeight: "500" }} variant="body1">
 																{item.title}
 															</Typography>
-															
+
 														</>
 													}
 												</Link>

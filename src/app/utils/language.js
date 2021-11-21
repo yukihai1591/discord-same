@@ -98,7 +98,6 @@ const Language = {
     create: "Tạo",
 
     username_email: "Tên đăng nhập/E-mail",
-    login: "Đăng nhập",
     register: "Đăng ký",
     forgot_password: "Quên mật khẩu",
     need_an_account: "Bạn muốn đăng ký tài khoản?",

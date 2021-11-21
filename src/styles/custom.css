@@ -427,21 +427,126 @@ form label {
   background: linear-gradient(144.25deg, rgba(91, 255, 248, 0.5) -36.97%, rgba(0, 95, 164, 0.5) 137.88%);
 }
 
-.bg-home-sec-1 {
 
+/* Section 1 */
+.bg-home-sec-1 {
   background:  rgb(22, 106, 139) !important;
   /* background: linear-gradient(144.25deg, rgba(91, 255, 248, 0.5) -36.97%, rgba(0, 95, 164, 0.5) 137.88%) !important; */
 }
-
 .img-home-sec-1 {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-
+}
+.title-1-sec-1 {
+  /* position: absolute; */
+  /* width: 321px; */
+  /* height: 52px; */
+  left: 135px;
+  top: 295px;
+  font-family: Agency Gothic CT;
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 48px; */
+  line-height: 52px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.body-1-sec-1 {
+  /* position: absolute; */
+  width: 326px;
+  height: 58px;
+  left: 135px;
+  top: 367px;
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  
+  color: #5BFFF8;
+  
+  opacity: 0.6;
+}
+.bg-home-sec-2 {
+  background: #002A5A !important;
 }
 
 
+/* Section 2 */
+.title-1-sec-2 {
+  font-family: Agency Gothic CT;
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 48px; */
+  /* line-height: 52px; */
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
 
+.body-1-sec-2 {
+  /* position: static; */
+  /* width: 191px;
+  height: 29px;
+  left: 0px;
+  top: 0px; */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+.content-1-sec-2 {
+  font-family: Lato;
+  color: #FAFAFA !important;
+}
 
+.title-2-sec-2 {
+  /* position: absolute;
+  width: 151px;
+  height: 52px; */
+  left: 805px;
+  top: 577px;
+  font-family: Agency Gothic CT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.body-2-sec-2 {
+  /* position: static; */
+  /* width: 501px;
+  height: 57px; */
+  left: 0px;
+  top: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FAFAFA;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
 
 
 
